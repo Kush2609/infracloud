@@ -1,0 +1,1 @@
+docker run  -d -p 9393:9393 --mount type=bind,source=/Users/kkarnani/Desktop/tst/csvserver/solution/inputFile,target=/csvserver/inputdata infracloudio/csvserver:latest
